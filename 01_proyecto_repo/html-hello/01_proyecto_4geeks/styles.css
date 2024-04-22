@@ -1,80 +1,70 @@
-body{
-    background-color: rgb(19, 95, 85);
+body {
+  background-color: rgb(19, 95, 85);
 }
 .contenedor-principal {
-    width: 420px;
-    height: 520px;
-    display:block;
-    max-width: 100%;
-    height: auto;
-    justify-content: center;
-    margin: 50px auto 50px auto;
-    padding-bottom: 5px;
-    font-family: "Roboto" Cochin, Georgia, Times, 'Times New Roman', serif; 
+  width: 400px;
+  height: 370px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  margin: 50px auto 50px auto;
+  padding-bottom: 5px;
+  font-family: "Roboto" Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.imagen {
+  width: 100%;
+  height: 100%;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-    margin-top: 5px;
+.imagen img {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
 }
 
-div{
-    background-color:rgb(242, 240, 237);
+div {
+  background-color: rgb(242, 240, 237);
 }
 
 .encabezado {
-    display: flex;
-    justify-content: left;
-    text-align: center;
-    padding-top: 10px; 
-    
-
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 10px;
+  align-items: center;
 }
-
 .iconos-izq1 {
-    width: 5%;
-    padding-left: 10px;
-    
+  padding-right: 5px;
 }
 
-.iconos-izq2 {
-    width: 95%;
-    text-align: left;
-    padding-left: 10px;
-    height: 45px;
-}
-
-.iconos-drcha {
-    margin-left: auto;
+.iconos-drch {
+  margin-left: auto;
 }
 
 .nombre-dueño-post {
-    margin:0;
-    
+  margin: 0;
 }
-   
 
 .iconos-pie-foto {
-    display: flex;
-    justify-content: left;
-    text-align: center;
-    align-items: center;
-   
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
 }
 .pie-foto {
-    padding: 5px 7px 5px 7px;
+  padding: 5px 7px 5px 7px;
 }
 
 #icono-marcador {
-    margin-left: auto;
+  margin-left: auto;
 }
 .negrita {
-    font-style: italic;
-    font-weight: 600;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .descripcion {
-    text-align: justify;
-    font-style: italic;
+  text-align: justify;
+  font-style: italic;
 }
