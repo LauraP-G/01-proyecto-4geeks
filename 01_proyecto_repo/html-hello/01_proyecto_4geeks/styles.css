@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(19, 95, 85);
+}
+.contenedor-principal {
+    width: 420px;
+    height: 520px;
+    display:block;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    padding-bottom: 5px;
+    font-family: "Roboto" Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+}
+
+div{
+    background-color:rgb(242, 240, 237);
+}
+
+.encabezado {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding-top: 10px; 
+    
+
+}
+
+.iconos-izq1 {
+    width: 5%;
+    padding-left: 10px;
+    
+}
+
+.iconos-izq2 {
+    width: 95%;
+    text-align: left;
+    padding-left: 10px;
+    height: 45px;
+}
+
+.iconos-drcha {
+    margin-left: auto;
+}
+
+.nombre-dueño-post {
+    margin:0;
+    
+}
+   
+
+.iconos-pie-foto {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+   
+}
+.pie-foto {
+    padding: 5px 7px 5px 7px;
+}
+
+#icono-marcador {
+    margin-left: auto;
+}
+.negrita {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.descripcion {
+    text-align: justify;
+    font-style: italic;
+}
