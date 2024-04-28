@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(19, 95, 85);
+  height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contenedor-principal {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto; 
+  font-family: roboto, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.imagen {
+  width: 400px;
+  height: 350px;
+ 
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+div {
+  background-color: rgb(242, 240, 237);
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.iconos-izq1 {
+  padding-right: 5px;
+}
+
+.iconos-drch {
+  margin-left: auto;
+}
+
+.titulo-post{
+  margin: 0;
+}
+
+.iconos-pie-foto {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+}
+
+.pie-foto {
+  padding: 5px 7px 5px 7px;
+}
+
+.interacion p {
+  margin: 0;
+  margin-top: 2px;
+}
+
+#icono-marcador {
+  margin-left: auto;
+}
+
+.negrita {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.descripcion {
+  text-align: justify;
+  font-style: italic;
+}
+
+.descripcion p {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
